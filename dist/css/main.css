@@ -1,4 +1,9 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
-  background: #4c6ca0;
-}
-/*# sourceMappingURL=main.css.map */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: black;
+  color: #f4f4f4;
+  line-height: 1.5; }
