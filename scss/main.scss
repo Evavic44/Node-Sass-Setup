@@ -1,5 +1,65 @@
-$color: #4c6ca0;
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background: $color;
+  background: $light-color;
+  font-family: $font-stack;
+  color: $dark-color;
+  line-height: 1.5;
+}
+
+header {
+  background: $dark-color;
+  color: $light-color;
+  padding: 1rem;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+// Section
+.section {
+  padding: 3rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  &-a {
+    background: $primary-color;
+    color: #fff;
+  }
+
+  &-b {
+    background: $secondary-color;
+    color: #fff;
+  }
+}
+
+%btn-shared {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn {
+  &-light {
+    @extend %btn-shared;
+    background: $light-color;
+    color: #333;
+  }
+
+  &-dark {
+    @extend %btn-shared;
+    background: $dark-color;
+    color: #fff;
+  }
 }
