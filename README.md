@@ -5,7 +5,8 @@ Environment Setup with Node-sass
 
 This involves installing sass using the <a href="https://www.npmjs.com/" target="_blank">node package manager(NPM)</a>, coupled with a simple NPM script that watches a certain folder where we created our sass files and complies it to regular CSS in the folder we specified. 
 
-![giphy.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1633802132439/OPb4yr8j9.gif)
+<img src="https://user-images.githubusercontent.com/62628408/147373704-f52d556e-2cb9-41ee-b7dd-2dffc83b5729.gif">
+
 Sounds like mumbo jumbo? 😅 don't worry about it, it'll make sense as we go.
 
 ## Step 1. Download and install node
