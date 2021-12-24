@@ -15,3 +15,6 @@ Those errors happen with 'node-sass (watch mode)', 'chokidar + node-sass' and 'n
 # Fix
 locate the file `node-sass/lib/render.js` inside your local `node_modules` folder and replace with this code:
 https://github.com/marcosbozzani/node-sass/blob/bug-vscode-watch/lib/render.js
+
+# Article
+I wrote about alternate ways you can install and get SASS running in a project, you can read more about it <a href="">here</a>
